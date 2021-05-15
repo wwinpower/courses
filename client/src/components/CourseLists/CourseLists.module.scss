@@ -1,0 +1,24 @@
+.CourseLists {
+    padding: 0 30px;
+
+    & ul {
+        list-style: none;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        padding: 15px 30px;
+        background: #ff6363;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+
+        &:disabled {
+            background: #ddd;
+            cursor: no-drop;
+        }
+    }
+}

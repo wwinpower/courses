@@ -1,0 +1,23 @@
+.CourseLists {
+  padding: 0 30px;
+}
+.CourseLists ul {
+  list-style: none;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.CourseLists__button {
+  padding: 15px 30px;
+  background: #ff6363;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.CourseLists__button:disabled {
+  background: #ddd;
+  cursor: no-drop;
+}
+
+/*# sourceMappingURL=CourseLists.module.css.map */

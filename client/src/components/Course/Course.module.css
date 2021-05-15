@@ -1,0 +1,19 @@
+li {
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+li:last-child {
+  border-bottom: none;
+}
+li:hover {
+  background-color: #f2f2f2;
+}
+li .selected {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=Course.module.css.map */
